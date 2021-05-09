@@ -12,7 +12,8 @@ services:
     - rsvpnet
 
  web:
-   image: teamcloudyuga/rsvpapp:mooc
+   #image: teamcloudyuga/rsvpapp:mooc
+   build: .
    ports:
     - "5000:5000"
    environment:
